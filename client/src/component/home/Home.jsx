@@ -1,12 +1,14 @@
-
-
-
-import Navbar from "./navbar";
+import { Fragment } from "react";
+import Navbar from "./Navbar";
+import Banner from "./Banner";
 
 const Home= ()=>
 {
     return(
-        <Navbar/>
+        <Fragment>
+            <Navbar />
+            <Banner />
+        </Fragment>
     )
 }
 
